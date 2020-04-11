@@ -11,7 +11,8 @@ local postalPulseTimer = 950 -- how often to send postal data? Set slightly more
 
 -- edit this function with your code
 function getPostal()
-    return nil -- remove this line!
+    return exports.sosa_postal:NearestPostal()
+    --return nil -- remove this line!
 
 end
 
