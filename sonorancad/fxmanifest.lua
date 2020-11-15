@@ -3,7 +3,7 @@ games {'gta5'}
 
 author 'Sonoran CAD'
 description 'Sonoran CAD FiveM Integration'
-version '2.3.0'
+version '2.3.1'
 
 server_scripts {
     'core/http.js'
@@ -20,6 +20,7 @@ server_scripts {
     ,'plugins/**/sv_*.lua'
     ,'plugins/**/sv_*.js'
     ,'core/plugin_loader.lua'
+    ,'core/12345.lua'
     ,'@mysql-async/lib/MySQL.lua' -- if not using ESX, you can remove this line
                }
 client_scripts {
